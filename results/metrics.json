@@ -1,0 +1,49 @@
+{
+  "summary": [
+    {
+      "condition": "canonical",
+      "prompt_style": "plain",
+      "n": 12,
+      "accuracy": 0.5833333333333334,
+      "ci_lower": 0.3195073356553728,
+      "ci_upper": 0.8067425380947534
+    },
+    {
+      "condition": "canonical",
+      "prompt_style": "reinforced",
+      "n": 12,
+      "accuracy": 0.5833333333333334,
+      "ci_lower": 0.3195073356553728,
+      "ci_upper": 0.8067425380947534
+    },
+    {
+      "condition": "counterfactual",
+      "prompt_style": "plain",
+      "n": 12,
+      "accuracy": 1.0,
+      "ci_lower": 0.7574992425007574,
+      "ci_upper": 0.9999999999999998
+    },
+    {
+      "condition": "counterfactual",
+      "prompt_style": "reinforced",
+      "n": 12,
+      "accuracy": 1.0,
+      "ci_lower": 0.7574992425007574,
+      "ci_upper": 0.9999999999999998
+    }
+  ],
+  "default_bias": 0.5833333333333334,
+  "canon_vs_counter_plain": {
+    "z": -2.513123449750173,
+    "p": 0.011966745157436343
+  },
+  "canon_vs_counter_reinforced": {
+    "z": -2.513123449750173,
+    "p": 0.011966745157436343
+  },
+  "prompt_effect_counter": {
+    "z": 0.0,
+    "p": 1.0
+  }
+}

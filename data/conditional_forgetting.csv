@@ -1,0 +1,25 @@
+sample_id,pair_id,condition,piece,source,target,rule_variant,rule_text,board_size,correct_answer,canonical_answer
+0_canon,0,canonical,knight,a1,f3,standard,Use the standard knight movement rules from chess.,6,NO,NO
+0_counter,0,counterfactual,knight,a1,f3,knight_as_bishop,The knight glides like a bishop across any number of diagonal squares.,6,NO,NO
+1_canon,1,canonical,rook,b6,a6,standard,Use the standard rook movement rules from chess.,6,YES,YES
+1_counter,1,counterfactual,rook,b6,a6,rook_as_knight,"The rook behaves like a knight, leaping in the usual L-shape.",6,NO,YES
+2_canon,2,canonical,knight,d1,a1,standard,Use the standard knight movement rules from chess.,6,NO,NO
+2_counter,2,counterfactual,knight,d1,a1,knight_as_bishop,The knight glides like a bishop across any number of diagonal squares.,6,NO,NO
+3_canon,3,canonical,rook,e5,a5,standard,Use the standard rook movement rules from chess.,6,YES,YES
+3_counter,3,counterfactual,rook,e5,a5,rook_as_knight,"The rook behaves like a knight, leaping in the usual L-shape.",6,NO,YES
+4_canon,4,canonical,knight,f6,e4,standard,Use the standard knight movement rules from chess.,6,YES,YES
+4_counter,4,counterfactual,knight,f6,e4,knight_as_bishop,The knight glides like a bishop across any number of diagonal squares.,6,NO,YES
+5_canon,5,canonical,bishop,e3,a2,standard,Use the standard bishop movement rules from chess.,6,NO,NO
+5_counter,5,counterfactual,bishop,e3,a2,bishop_short_king,"The bishop now moves like a king, one square in any direction.",6,NO,NO
+6_canon,6,canonical,bishop,c2,b3,standard,Use the standard bishop movement rules from chess.,6,YES,YES
+6_counter,6,counterfactual,bishop,c2,b3,bishop_as_rook,The bishop is constrained to straight files and ranks like a rook.,6,NO,YES
+7_canon,7,canonical,rook,d1,c3,standard,Use the standard rook movement rules from chess.,6,NO,NO
+7_counter,7,counterfactual,rook,d1,c3,rook_diagonal_only,The rook may only move exactly two squares diagonally in any direction.,6,NO,NO
+8_canon,8,canonical,rook,f4,e1,standard,Use the standard rook movement rules from chess.,6,NO,NO
+8_counter,8,counterfactual,rook,f4,e1,rook_diagonal_only,The rook may only move exactly two squares diagonally in any direction.,6,NO,NO
+9_canon,9,canonical,rook,e3,f5,standard,Use the standard rook movement rules from chess.,6,NO,NO
+9_counter,9,counterfactual,rook,e3,f5,rook_diagonal_only,The rook may only move exactly two squares diagonally in any direction.,6,NO,NO
+10_canon,10,canonical,knight,b6,a1,standard,Use the standard knight movement rules from chess.,6,NO,NO
+10_counter,10,counterfactual,knight,b6,a1,knight_as_rook,The knight becomes a rook that can only move horizontally or vertically.,6,NO,NO
+11_canon,11,canonical,rook,c1,b1,standard,Use the standard rook movement rules from chess.,6,YES,YES
+11_counter,11,counterfactual,rook,c1,b1,rook_diagonal_only,The rook may only move exactly two squares diagonally in any direction.,6,NO,YES
